@@ -1,4 +1,4 @@
-import TextChanger from "../../textChanger";
+import TextChanger from "../../TextChanger"
 import UmarResume from "../../assets/UmarShaikh_Resume.pdf"
 import {FaDownload} from 'react-icons/fa'
 
