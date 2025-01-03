@@ -1,4 +1,5 @@
 import { RiArrowRightSLine } from "@remixicon/react";
+import aboutImg from "../../assets/Selfie.jpg";
 // import userImage from "../Umar.png"
 // eslint-disable-next-line react/prop-types
 export default function About({ darkMode }) {
@@ -9,15 +10,16 @@ export default function About({ darkMode }) {
         darkMode ? "text-white" : "text-black"
       } md:flex flex-col overflow-hidden items-center md:flex-wrap md:justify-center bg-black shadow-xl mx-0 md:mx-20 ${
         darkMode ? "bg-opacity-30" : "bg-opacity-15"
-      } rounded-lg p-6 md:p-12`}
+      } rounded-lg p-6 md:p-8`}
     >
       <div className="text-center md:text-left mb-6">
         <h2 className="text-2xl md:text-4xl font-bold">About</h2>
         <p className="text-sm md:text-lg mt-2">
           A passionate developer with experience in both frontend and backend technologies.
         </p>
-      </div>
-
+        </div>
+        
+  
       <div className="md:flex gap-6 flex-wrap justify-center items-center">
         {/* Frontend Developer Section */}
         <div className="flex gap-3 py-4 w-full md:w-96 justify-center items-start">

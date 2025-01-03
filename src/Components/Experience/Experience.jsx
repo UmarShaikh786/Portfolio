@@ -4,7 +4,8 @@ import {
   FaReact,
   FaJs,
   FaSchool,
-  FaNode
+  FaNode,
+  
 } from "react-icons/fa";
 import {
   SiMongodb,
@@ -13,6 +14,7 @@ import {
   SiTailwindcss,
   SiJquery,
   SiExpress,
+  SiGit
 } from "react-icons/si";
 
 // eslint-disable-next-line react/prop-types
@@ -41,6 +43,7 @@ export default function Experience({ darkMode }) {
           { Icon: SiJquery, name: "jQuery", color: "#E34F26" },
           { Icon: SiMysql, name: "MySQL", color: "#f29111" },
           { Icon: SiMongodb, name: "MongoDB", color: "#47A248" },
+          { Icon: SiGit, name: "Git", color: "#E34F26" },
         ].map(({ Icon, name, color }, index) => (
           <div
             key={index}

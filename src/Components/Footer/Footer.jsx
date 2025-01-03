@@ -71,12 +71,12 @@ function Footer() {
           <RiWhatsappLine
             color="#25D366"
             size={30}
-            className="group-hover:cursor-pointer transition duration-300"
+            className="group-hover:cursor-pointer transition-all duration-300"
           />
           <a
             href="https://wa.me/+919714566958?text=hello"
             target="_blank"
-            className="hover:cursor-pointer"
+            className="hover:cursor-pointer hover:underline"
           >
             +91 9714566958
           </a>

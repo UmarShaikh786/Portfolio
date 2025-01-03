@@ -1,7 +1,7 @@
 import { useEffect,useState } from "react";
 
 function TextChanger() {
-    const texts=['Hi,I am Umar','Hi,I am Umar','Hi,I am Umar']
+    const texts=['Hi,I am Umar Shaikh','Hi,I am Umar Shaikh','Hi,I am Umar Shaikh']
     const [currentText, setcurrentText] = useState("");
     const [endValue,setEndValue]=useState(true)
     const [isForward,setIsForward]=useState(true)
